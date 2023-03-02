@@ -58,7 +58,7 @@ class MethodeExcerTest {
         //WHEN
         boolean result = MethodeExcer.isValueBiggerThan100(value);
         //Then
-        assertEquals(true, result);
+        assertEquals(false, result);
     }
 }
 
